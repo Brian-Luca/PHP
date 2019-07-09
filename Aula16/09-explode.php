@@ -4,18 +4,20 @@
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="css/estilo.css">
     <title>
-        Operadores Aritméticos
+
     </title>
+    <style>
+
+    </style>
 </head>
 <body>
-    <div>
-        <?php
-            $n1 = 3;
-            $n2 = 2;
-            $s = $n1 + $n2;
-            echo "A soma entre $n1 e $n2 é igual a $s";
+<div>
+    <?php
+        $site =  "Curso em video";
+        $vetor = explode("", $site);
+        print_r($vetor);
         ?>
-    </div>
+</div
 </body>
 </html>
 </DOCTYPE>

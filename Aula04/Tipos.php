@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8"/>
-    <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <title>
         Tipos de variáveis
     </title>

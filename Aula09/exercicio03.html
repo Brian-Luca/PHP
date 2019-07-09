@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>
+        Integração HTML5 + PHP
+    </title>
+    <style>
+        span{
+            font-size: 1.17em;
+            font-weight: bold;
+        }
+        #butao{
+            background-color: #25303c;
+            color: white;
+            font-family: arial, sans-serif;
+            height: 40px;
+            font-size: small;
+            font-weight: 100;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <form method="get" action="exercicio03.php">
+        <span>Nota 1:</span>
+        <input type="number" name="n1" placeholder="N1" min="0" max="10"><br>
+        <br>
+        <span>Nota 2:</span>
+        <input type="number" name="n2" placeholder="N2" min="0" max="10"><br>
+        <br>
+        <input id="butao" type="submit" value="Calcular Média">
+    </form>
+</div>
+</body>
+</html>

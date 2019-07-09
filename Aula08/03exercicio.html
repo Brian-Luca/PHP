@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>
+        Integração HTML5 + PHP
+    </title>
+</head>
+<body>
+<div>
+    <form method="get" action="03cores.php">
+        <label for="itxt">Texto:</label><br>
+        <input type="text" name="t" id="itxt"><br>
+        <label for="itam">Tamanho</label>
+        <select name="tam" id="itam">
+            <option value="8px">8</option>
+            <option value="10px">10</option>
+            <option value="12px" selected>12</option>
+            <option value="14px">14</option>
+            <option value="16px">16</option>
+            <option value="18px">18</option>
+            <option value="20px">20</option>
+            <option value="40px">40</option>
+            <option value="60px">60</option>
+            <option value="80px">80</option>
+            <option value="100px">100</option>
+            <option value="200px">200</option>
+        </select> <br>
+        <label for="icor">Cor: </label>
+        <input type="color" name="cor" id="icor"><br>
+        <input type="submit" value="Gerar">
+    </form>
+</div>
+</body>
+</html>
